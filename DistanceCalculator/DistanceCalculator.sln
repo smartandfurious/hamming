@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HammingDistanceDriver", "HammingDistanceDriver\HammingDistanceDriver.vcxproj", "{DDA23D26-0FC1-4724-B062-F40A5CB83A3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{566B239F-AC43-4AE7-817C-5E58AB6B8A3B} = {566B239F-AC43-4AE7-817C-5E58AB6B8A3B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HammingDistanceDLL", "HammingDistanceDLL\HammingDistanceDLL.vcxproj", "{566B239F-AC43-4AE7-817C-5E58AB6B8A3B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HammingDistanceUnitTest", "HammingDistanceUnitTest\HammingDistanceUnitTest.vcxproj", "{8075047F-F2F3-4DB0-9434-0F15D2E698B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HammingDistanceFuncTest", "HammingDistanceFuncTest\HammingDistanceFuncTest.vcxproj", "{01B06F31-1CB4-4FFC-8FD2-0A9F3CF03812}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DDA23D26-0FC1-4724-B062-F40A5CB83A3F} = {DDA23D26-0FC1-4724-B062-F40A5CB83A3F}
+		{566B239F-AC43-4AE7-817C-5E58AB6B8A3B} = {566B239F-AC43-4AE7-817C-5E58AB6B8A3B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDA23D26-0FC1-4724-B062-F40A5CB83A3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DDA23D26-0FC1-4724-B062-F40A5CB83A3F}.Debug|Win32.Build.0 = Debug|Win32
+		{DDA23D26-0FC1-4724-B062-F40A5CB83A3F}.Release|Win32.ActiveCfg = Release|Win32
+		{DDA23D26-0FC1-4724-B062-F40A5CB83A3F}.Release|Win32.Build.0 = Release|Win32
+		{566B239F-AC43-4AE7-817C-5E58AB6B8A3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{566B239F-AC43-4AE7-817C-5E58AB6B8A3B}.Debug|Win32.Build.0 = Debug|Win32
+		{566B239F-AC43-4AE7-817C-5E58AB6B8A3B}.Release|Win32.ActiveCfg = Release|Win32
+		{566B239F-AC43-4AE7-817C-5E58AB6B8A3B}.Release|Win32.Build.0 = Release|Win32
+		{8075047F-F2F3-4DB0-9434-0F15D2E698B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8075047F-F2F3-4DB0-9434-0F15D2E698B4}.Debug|Win32.Build.0 = Debug|Win32
+		{8075047F-F2F3-4DB0-9434-0F15D2E698B4}.Release|Win32.ActiveCfg = Release|Win32
+		{8075047F-F2F3-4DB0-9434-0F15D2E698B4}.Release|Win32.Build.0 = Release|Win32
+		{01B06F31-1CB4-4FFC-8FD2-0A9F3CF03812}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01B06F31-1CB4-4FFC-8FD2-0A9F3CF03812}.Debug|Win32.Build.0 = Debug|Win32
+		{01B06F31-1CB4-4FFC-8FD2-0A9F3CF03812}.Release|Win32.ActiveCfg = Release|Win32
+		{01B06F31-1CB4-4FFC-8FD2-0A9F3CF03812}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
